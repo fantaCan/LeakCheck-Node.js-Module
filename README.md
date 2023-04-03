@@ -16,7 +16,8 @@ console.log(response)
 
 ```
 
-
+## Summary 
+This was made using the Extended API documentation provided by the official website https://wiki.leakcheck.io/en/api/extended.
 
 ## Requirements 
 *  Node.js version 16 or higher
