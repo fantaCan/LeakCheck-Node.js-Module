@@ -65,7 +65,7 @@ export default class {
         query_requested = queryParam;
     }
 
-    async run() { // To stop experimental warning messages from node-fetch module
+    async run() { // To stop experimental warning messages from fetch
         const originalEmit = process.emit;
         process.emit = function (name, data, ...args) {
             if (name === `warning` && typeof data === `object` && data.name === `ExperimentalWarning`) {
