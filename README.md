@@ -15,3 +15,11 @@ const response = await client.run();
 console.log(response)
 
 ```
+
+
+
+## Requirements 
+*  Node.js version 16 or higher
+
+## Developer 
+* fanta#1337
